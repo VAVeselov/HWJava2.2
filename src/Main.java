@@ -4,11 +4,10 @@ public class Main {
         int i = 100;
         int x = 300;
         int balance;
-        if (x > 1000)
-        {
+        if (x > 1000) {
             balance = amount + x + x / i;
 
-    } else {
+        } else {
             balance = amount + x;
         }
         System.out.println(balance);
