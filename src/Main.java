@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
         int amount = 100;
-        int i = 100;
-        int x = 300;
+        int priceBonuce = 100;
+        int popolnenie = 300;
         int balance;
-        if (x > 1000) {
-            balance = amount + x + x / i;
+        if (popolnenie > 1000) {
+            balance = amount + popolnenie + popolnenie / priceBonuce;
 
         } else {
-            balance = amount + x;
+            balance = amount + popolnenie;
         }
         System.out.println(balance);
 
